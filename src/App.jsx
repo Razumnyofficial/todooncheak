@@ -9,8 +9,8 @@ function App() {
   const [inputName, setInputName] = useState("");
   // const [info, setInfo] = useState(INFOTASKS);
   const [filterParams, setFilterParams] = useState(null);
-  const [error, setError] = useState(); // состояние ошибки
-  const [TasksData, setTasksData] = useState([]); // получение и состояние данных
+  const [error, setError] = useState(); 
+  const [TasksData, setTasksData] = useState([]); 
 
   //Get запрос
   const fetchData = async () => {
