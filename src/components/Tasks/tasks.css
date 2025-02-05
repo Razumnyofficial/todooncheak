@@ -1,0 +1,73 @@
+input {
+  outline: none;
+}
+
+.isDone {
+  text-decoration: line-through;
+}
+
+.btn_icons_delete {
+  max-width: 16px;
+  max-height: 16px;
+  margin: 6px;
+  filter: brightness(0) invert(1);
+}
+
+.btn_icons_edit {
+  max-width: 16px;
+  max-height: 16px;
+  margin: 6px;
+  filter: brightness(0) invert(1);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.iconsbtnedit {
+  border: 1px solid #a2a2a2;
+  border-radius: 4px;
+  background-color: rgb(0, 147, 220);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.iconsbtndelete {
+  border: 1px solid #a2a2a2;
+  border-radius: 4px;
+  background-color: rgba(220, 0, 0, 0.629);
+  cursor: pointer;
+}
+
+.iconsbtnsave {
+  border: 1px solid #a2a2a2;
+  border-radius: 4px;
+  background-color: rgb(0, 147, 220);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn_icons_1 {
+  width: 20px;
+  margin: 4px;
+  filter: brightness(0) invert(1);
+}
+
+.info_items {
+  width: 230px;
+}
+.item-container {
+  margin-top: 10px;
+}
+.datainfo {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
